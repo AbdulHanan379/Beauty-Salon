@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@color/purple_200">
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="logo"/>
+
+    <TextView
+        android:layout_marginTop="8dp"
+        android:text="Glamour Parlour"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"/>
+</LinearLayout>
